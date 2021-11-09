@@ -3,13 +3,13 @@
 ## RUN Build
 
 ```bash
-docker build -t bbbond/pdf.js .
+docker build -t jwy8645/pdf.js .
 ```
 
 ## RUN
 
 ```
-docker run -d --name=pdf -p=8080:8080 bbbond/pdf.js
+docker run -d --name=pdf -p=8080:8080 jwy8645/pdf.js
 ```
 
 ## Visit
