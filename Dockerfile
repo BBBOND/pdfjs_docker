@@ -1,4 +1,4 @@
-FROM node
+FROM node:lts-alpine
 RUN mkdir -p /opt/node
 WORKDIR /tmp/
 RUN wget https://github.com/mozilla/pdf.js/releases/download/v2.10.377/pdfjs-2.10.377-dist.zip -O pdfjs-dist.zip
